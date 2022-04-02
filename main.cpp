@@ -7,23 +7,23 @@ int main() {
     cout << "Inserire due valori reali:" << endl;
     cin >> a >> b;
     cout << "Selezionare l\'area che si vuole calcolare:" << endl;
-    cout << "0) area del triangolo" << endl;
-    cout << "1) area del quadrato" << endl;
-    cout << "2) area del rettangolo" << endl;
+    cout << "0) area del triangolo di base " << a << " e altezza " << b << endl;
+    cout << "1) area del quadrato di lato " << a << endl;
+    cout << "2) area del rettangolo di lati " << a << " e " << b << endl;
     cin >> opzione;
 
     switch(opzione) {
         case 0:
             Atriangolo = a*b/2;
-            cout << "L\'area del triangolo e\' " << Atriangolo;
+            cout << Atriangolo;
             break;
         case 1:
             Aquadrato = a*a;
-            cout << "L\'area del quadrato e\' " << Aquadrato;
+            cout << Aquadrato;
             break;
         case 2:
             Arettangolo = a*b;
-            cout << "L\' area del rettangolo e\' " << Arettangolo;
+            cout << Arettangolo;
             break;
         default:
             cout << "opzione non valida";

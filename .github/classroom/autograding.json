@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "First Test",
+      "setup": "g++ main.cpp -o main",
+      "run": "./main",
+      "input": "2.1\r\n4.3\r\n0",
+      "output": "4.515",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Second Test",
+      "setup": "g++ main.cpp -o main",
+      "run": "./main",
+      "input": "1.6\r\n12.3\r\n1",
+      "output": "2.56",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Third Test",
+      "setup": "g++ main.cpp -o main",
+      "run": "./main",
+      "input": "1.6\r\n12.3\r\n1",
+      "output": "2.56",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Fourth Test",
+      "setup": "g++ main.cpp -o main",
+      "run": "./main",
+      "input": "1234.12\r\n8.90\r\n12",
+      "output": "opzione non valida",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
